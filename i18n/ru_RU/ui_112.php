@@ -1,0 +1,37 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+// This is specific translation for portal.112.ua
+
+$lang = array(
+        'verified' => 'Проверено',
+        'unverified' => 'Не проверено',
+        'edit' => 'редактировать',
+        'share_social' => 'Поделиться',
+        'marks' => 'теги',
+        'anounce_events' => 'СОБЫТИЯ',
+        'anounce_top_day' => 'ГЛАВНОЕ ЗА ДЕНЬ',
+	'share_social' => 'Поделиться',
+        'filter_reports' => 'Отфильтровать',
+        'reset_all_filters' => 'Очистить',
+        'footer_feedback' => 'Обратная связь',
+        'footer_contacts' => 'Контакты',
+        'footer_reklama' => 'Реклама на сайте',
+        'footer_copyright' => 'Использование материалов',
+        'footer_confident' => 'Политика конфиденциальности',
+        'footer_help' => 'Помощь',
+        'footer_logo' => 'Лого', 
+        'submenu_main' => 'Главные', 
+        'submenu_politic' => 'Политика', 
+        'submenu_economic' => 'Экономика', 
+        'submenu_ukraine' => 'Украина', 
+        'submenu_world' => 'Мир', 
+        'submenu_dtp' => 'Аварии и ЧП', 
+        'submenu_crime' => 'Криминал', 
+        'menu_video' => 'Видео', 
+        'menu_photo' => 'Фото', 
+        'menu_karta' => 'Карта', 
+        'comments_authorized' => 'Вы вошли как ', 
+        'leave_a_comment' => 'Оставьте комментарий ', 
+        'submit' => 'Я - очевидец!', 
+        'menu_112_live' => '112-live',
+
+);
