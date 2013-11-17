@@ -144,8 +144,8 @@ class nav_Core {
 		{
 			$menu_items[] = array( 
 				'page' => 'home',
-				'url' => 'http://112.ua',
-				'name' => Kohana::lang('ui_main.home')
+				'url' => 'http://www.112.ua',
+				'name' => Kohana::lang('ui_112.menu_home')
 			);
 		}
 
@@ -154,8 +154,8 @@ class nav_Core {
 		{
 			$menu_items[] = array( 
 				'page' => 'reports',
-				'url' => url::site('reports'),
-				'name' => Kohana::lang('ui_main.reports')
+				'url' => url::site('sobytiya'),
+				'name' => Kohana::lang('ui_112.menu_reports')
 			);
 		 }
 		
@@ -166,8 +166,8 @@ class nav_Core {
 			{
 				$menu_items[] = array( 
 					'page' => 'reports_submit',
-					'url' => url::site('reports/submit'),
-					'name' => Kohana::lang('ui_main.submit')
+					'url' => url::site('ochevidec'),
+					'name' => Kohana::lang('ui_112.menu_submit')
 				);
 			}
 		}
@@ -233,59 +233,59 @@ public static function submenu_tabs_112($this_page = FALSE, $dontshow = FALSE)
 		$sub_menu_items = array();
 
 
-		// add FEEDBACK page [internal controller karta.php]
+		// add MAINNEWS page [link to www.112.ua]
 
 				$sub_menu_items[] = array( 
 					'page' => 'mainnews',
-					'url' => url::site('contact'),
+					'url' => 'http://www.112.ua',
 					'name' => Kohana::lang('ui_112.submenu_main')
 				);
 
-		// add CONTACTS page [link to 112.ua/contacts]
+		// add POLITIKA page [link to 112.ua/politika]
 
 				$sub_menu_items[] = array( 
 					'page' => 'politic',
-					'url' => 'http://112.ua/contacts',
+					'url' => 'http://112.ua/politika',
 					'name' => Kohana::lang('ui_112.submenu_politic')
 				);
 
-		// add REKLAMA page [link to 112.ua/reklama]
+		// add EKONOMIKA page [link to 112.ua/ekonomika]
 
 				$sub_menu_items[] = array( 
 					'page' => 'economic',
-					'url' => 'http://112.ua/reklama',
+					'url' => 'http://112.ua/ekonomika',
 					'name' => Kohana::lang('ui_112.submenu_economic')
 				);
 
-		// add COPYRIGHT page [link to 112.ua/copyright]
+		// add UKRAINA page [link to 112.ua/ukraina]
 
 				$sub_menu_items[] = array( 
 					'page' => 'ukraine',
-					'url' => 'http://112.ua/copyright',
+					'url' => 'http://112.ua/ukraina',
 					'name' => Kohana::lang('ui_112.submenu_ukraine')
 				);
 
-		// add CONFIDENT page [link to 112.ua/confident]
+		// add MIR page [link to 112.ua/mir]
 
 				$sub_menu_items[] = array( 
 					'page' => 'world',
-					'url' => 'http://112.ua/confident',
+					'url' => 'http://112.ua/mir',
 					'name' => Kohana::lang('ui_112.submenu_world')
 				);
 
-		// add HELP page [link to 112.ua/help]
+		// add AVARII page [link to 112.ua/avarii-chp]
 
 				$sub_menu_items[] = array( 
 					'page' => 'dtp',
-					'url' => 'http://112.ua/help',
+					'url' => 'http://112.ua/avarii-chp',
 					'name' => Kohana::lang('ui_112.submenu_dtp')
 				);
 
-		// add CONTACTS page [link to 112.ua/logo]
+		// add KRIMINAL page [link to 112.ua/kriminal]
 
 				$sub_menu_items[] = array( 
 					'page' => 'crime',
-					'url' => 'http://112.ua/logo',
+					'url' => 'http://112.ua/kriminal',
 					'name' => Kohana::lang('ui_112.submenu_crime')
 				);
 
@@ -322,7 +322,7 @@ public static function footer_tabs_112($this_page = FALSE, $dontshow = FALSE)
 
 				$footer_menu_items[] = array( 
 					'page' => 'contacts',
-					'url' => 'http://112.ua/contacts',
+					'url' => 'http://112.ua/contacty',
 					'name' => Kohana::lang('ui_112.footer_contacts')
 				);
 
@@ -338,7 +338,7 @@ public static function footer_tabs_112($this_page = FALSE, $dontshow = FALSE)
 
 				$footer_menu_items[] = array( 
 					'page' => 'copyright',
-					'url' => 'http://112.ua/copyright',
+					'url' => 'http://112.ua/use-materials',
 					'name' => Kohana::lang('ui_112.footer_copyright')
 				);
 
@@ -346,7 +346,7 @@ public static function footer_tabs_112($this_page = FALSE, $dontshow = FALSE)
 
 				$footer_menu_items[] = array( 
 					'page' => 'confident',
-					'url' => 'http://112.ua/confident',
+					'url' => 'http://112.ua/policy',
 					'name' => Kohana::lang('ui_112.footer_confident')
 				);
 
@@ -362,7 +362,7 @@ public static function footer_tabs_112($this_page = FALSE, $dontshow = FALSE)
 
 				$footer_menu_items[] = array( 
 					'page' => 'logo',
-					'url' => 'http://112.ua/logo',
+					'url' => 'http://112.ua/logos',
 					'name' => Kohana::lang('ui_112.footer_logo')
 				);
 
